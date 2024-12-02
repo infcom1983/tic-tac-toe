@@ -38,7 +38,7 @@ public class DataPrinter {
         for (int i = 0; i < 3; i++) {
             System.out.println("-------------");
             for (int j = 0; j < 3; j++) {
-                System.out.println("| " + gameTable.getSign(new Cell(i, j)) + " ");
+                System.out.print("| " + gameTable.getSign(new Cell(i, j)) + " ");
             }
             System.out.println("|");
         }
